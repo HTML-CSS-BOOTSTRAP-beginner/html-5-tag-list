@@ -1,0 +1,13 @@
+Problems of this Project:
+
+1st of all I thought this list can be nice in [list group] with hover [tooltip].
+Like hovering on any tag it will show it's definition in it's tooltip box.
+
+But the plan didn't work because, big tooltip doesn't pop up on small responsive screens.
+The tooltip boxes were getting quite big for the definitions.
+
+Then I thought the list will look good in accordion.
+But in accordion, gutter-x was giving a horizontal scroll bar in the bottom on small responsive screens everytime. So, I changed that to gutter-y.
+
+I also tried to [fixed-top] the heading but that also didn't work accurately, it was scrolling top to it's text. So, I gave it a padding, then it's scrolling problem solved. 
+  
